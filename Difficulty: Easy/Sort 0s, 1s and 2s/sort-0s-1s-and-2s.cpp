@@ -8,7 +8,7 @@ class Solution {
   public:
     void sort012(vector<int>& arr) {
         // code here
-       int n=arr.size();
+             int n=arr.size();
     int cnt0 = 0, cnt1 = 0, cnt2 = 0;
 
     for (int i = 0; i < n; i++) {
@@ -52,6 +52,7 @@ int main() {
         }
 
         cout << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
